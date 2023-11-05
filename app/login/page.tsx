@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Login() {
   return (
     <>
@@ -23,7 +24,7 @@ export default function Login() {
               </div>
               <div>
                 <button className="w-full bg-[#292D32] py-2 rounded-lg mb-3 text-white">
-                  Sign In
+                  <Link href={"/dashboard/supervisor"}>Sign In</Link>
                 </button>
                 <button className="w-full bg-[#F3F1F1] border-2 border-[#292D32] py-2 rounded-md mb-3">
                   Sign In With Google
