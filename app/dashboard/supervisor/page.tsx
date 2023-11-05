@@ -11,7 +11,7 @@ export default function DashboardSurveyor() {
             Lihat Laporan Harian
           </p>
           <div className="flex gap-5">
-            <button className="active:text-[#0056FF] focus:text-[#0056FF]  ">
+            <button className="active:text-[#0056FF] focus:text-[#0056FF]">
               Divisi A
             </button>
             <button className="active:text-[#0056FF] focus:text-[#0056FF]  ">
